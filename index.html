@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/220fae79fc.js" crossorigin="anonymous"></script>
+    <script defer src="script/main.js"></script>
+
+</head>
+
+<body>
+    <figure>
+        <ul class="panel">
+            <li class="on">
+                <div class="bg" style="background-image: url(img/pic1.jpg);">
+                    <!-- inline으로 style을 입히게 되면 장점
+                    우선순위가 최상위가 됩니다
+                    상속되는 문제서 최상위 상속자가 됩니다
+                    =>입히고자 하는 css를 정확하게 입힐수있는 방법
+                    단점 : index의 길이가 무지막지하게 길어집니다
+                    css효과를 넣으려면 같은 요소 모든곳에 적용해야 한다
+                    
+                    *목적이 있을때 사용
+                    -->
+                    <div class="shadow"></div>
+                </div>
+                <div class="txt">
+                    <h2>INNOAVTION</h2>
+                </div>
+                <nav>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <strong>View Detail Page</strong>
+                </nav>
+            </li>
+            <li>
+                <div class="bg" style="background-image: url(img/pic2.jpg);">
+                    <div class="shadow"></div>
+                </div>
+                <div class="txt">
+                    <h2>BRAND NEW</h2>
+                </div>
+                <nav>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <strong>View Detail Page</strong>
+                </nav>
+            </li>
+            <li>
+                <div class="bg" style="background-image: url(img/pic3.jpg);">
+                    <div class="shadow"></div>
+                </div>
+                <div class="txt">
+                    <h2>REMARKABLE</h2>
+                </div>
+                <nav>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <strong>View Detail Page</strong>
+                </nav>
+            </li>
+
+        </ul>
+        <a href="#" class="btnUp">
+            <span></span>
+            <em>UP</em>
+        </a>
+        <a href="#" class="btnDown">
+            <span></span>
+            <em>DOWN</em>
+        </a>
+    </figure>
+</body>
+
+</html>
